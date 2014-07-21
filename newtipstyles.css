@@ -1,0 +1,131 @@
+body {
+	width: 100%;
+	margin: 0;
+	height: 100%;
+	background-color: #7f8c8d;
+}
+#slideshowcontained {
+	width: 100%;
+	float: left;
+	position: relative;
+}
+.cycle-slideshow {
+	top: 0px;
+	left: 0px;
+	display: block;
+	position: relative;
+	z-index: 0;
+	width: 100%;
+	height: 800px;
+}
+.phototest {
+	width: 100%;
+	height: 800px;
+	background-size: cover !important;
+	
+}
+#logo1 {
+	float: left;
+	opacity: 1;
+	z-index: 200;
+	position: relative;
+}
+
+#videocontained {
+	float: left;
+	position: relative;
+	width: 70%;
+	margin: 0 auto;
+	margin-left: 23%;
+	margin-top: 10%;
+}
+#tipvideo {
+	float: left;
+	position: absolute;
+	display: inline-block;
+	height: 400px;
+	width: 75%;
+	z-index: 9;
+	margin: 0 auto;
+	background-color: DimGray;
+	opacity: 0.8;
+}
+
+#tipmotto {
+	float: right;
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background-color: #7f8c8d;
+	padding-bottom: 5%;
+	border-box: box-sizing;
+}
+#contentcontainer {
+	width: 90%;
+	margin: 0 auto;
+}
+#hi, #we {
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	color: #ecf0f1;
+	padding: 1%;
+	font-size: 1.8em;
+}
+
+#text {
+	background-color: #34495e;
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 10%;
+	border-bottom: 5px solid #ecf0f1;
+	margin-bottom: 5%;
+}
+#about {
+	width: 100%;
+	background-color: green;
+	height: 100%;
+	margin: 0 auto;
+	float: left;
+	position: relative;
+}
+#imgcontentcontainer {
+	width: 90%;
+	margin: 0 auto;
+	border-box: box-sizing;
+}
+#image1, #image2, #image3, #image4 {
+	background-image: url('images/ipad-hand.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	float: left;
+	margin-left: 10%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+#imgtext {
+	margin: 0 auto;
+	width: 100%;
+	background-color: yellow;
+}
+#imgptext {
+	background-color: lime;
+	width: 100%;
+	height: auto;
+}
+h3 {
+	display: inline-block;
+	margin-left: 30%;
+	margin-top: 115%;
+}
+h2 {
+	float: left;
+	position: relative;
+}
+
+
+
